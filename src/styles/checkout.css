@@ -1,0 +1,28 @@
+.checkout {
+  color: #5d4037;
+}
+
+.checkout-form .form-control {
+  margin-bottom: 1rem;
+}
+
+.checkout-form .btn {
+  background-color: #f7b731;
+  color: #5d4037;
+  border: none;
+  width: 100%;
+}
+
+.checkout-form .btn:hover {
+  background-color: #d35400;
+  color: #fff;
+}
+
+.alert-success {
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+}

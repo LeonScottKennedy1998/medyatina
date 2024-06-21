@@ -1,0 +1,50 @@
+.home {
+  color: #5d4037;
+}
+
+.contact-form .form-control {
+  margin-bottom: 1rem;
+}
+
+.products h2 {
+  color: #d35400;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; /* Center the items in the grid */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 1rem);
+  max-width: calc(33.333% - 1rem); /* Ensures the card doesn't stretch more than a third of the container */
+  box-sizing: border-box;
+}
+
+.product-image {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover; 
+}
+
+.product-card h5 {
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  margin: 0.5rem 0;
+}
